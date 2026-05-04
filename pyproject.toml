@@ -1,0 +1,23 @@
+[project]
+name = "wit-talk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "openai-whisper>=20250625",
+    "opencv-python>=4.12.0.88",
+    "pandas>=2.3.3",
+    "pillow>=12.0.0",
+    "pytesseract>=0.3.13",
+    "pyttsx3>=2.99",
+    "ultralytics>=8.3.227",
+]
+
+[project.scripts]
+wit-talk = "wit_talk:main"
+
+[build-system]
+requires = ["uv_build>=0.8.4,<0.9.0"]
+build-backend = "uv_build"

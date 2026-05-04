@@ -1,0 +1,43 @@
+---
+title: "See, Hear, and Read: Multimodal AI Made Simple"
+format:
+  revealjs:
+    theme: [default, solarized]
+    slide-number: true
+    footer: "Multimodal AI ≠ scary — it’s practical 🚀"
+    transition: fade
+    incremental: true
+    chalkboard: true
+---
+
+# What is “multimodal”?
+
+:::: {.columns}
+
+::: {.column width="40%"}
+### Definition
+**Multimodal AI** refers to models that can **work with and integrate multiple types of data**, such as **text, images, audio, and video**.
+
+- Understands more than one “sense”
+- Connects signals (e.g., audio ↔ text)
+- Powers practical workflows (not just research)
+:::
+
+::: {.column width="60%"}
+### Daily examples
+- 🎧 **Captions** on videos (audio ➝ text)
+- 🔎 **Google Lens**: point camera to translate (image ➝ text)
+- 🗣️ **Voice assistants** reading messages (text ➝ audio)
+- 📸 **Receipt scanners**/document apps (image ➝ searchable text)
+- 🖼️ **Alt text** generation for accessibility (image ➝ text)
+- 🚘 **Driver alerts** reading notifications aloud (text ➝ audio)
+:::
+ 
+::::
+
+::: notes
+Keep it simple:
+- Emphasize “multiple senses” idea.
+- Tie to audience’s daily tools so it feels familiar.
+- Promise: “You can build these with Python in a few lines.”
+:::
